@@ -1,0 +1,71 @@
+/* Navbar */
+.Nav {
+  height: 54px;
+  display: block;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Navbar Logo */
+.NavLogo {
+  height: 100%;
+  float: left;
+}
+
+/* Bar */
+.FaBars {
+  display: none;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .FaBars {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 75%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+}
+
+/* NavMenu */
+.NavMenu {
+  height: 100%;
+  margin: 0 20%;
+  padding-top: 5px;
+}
+
+/* Search Bar */
+
+.Search {
+  display: inline;
+  float: left;
+  width: 30%;
+  transform: translate(60%, 25%);
+}
+
+/* Nav Links Menu */
+.NavLinksMenu {
+  float: right;
+  padding: 5px 0;
+}
+
+/* Navbar Link */
+
+.NavLink {
+  color: #000;
+  font-size: 2em;
+  text-decoration: none;
+  margin: 0 10px;
+  height: 100%;
+  cursor: pointer;
+}
+
+/* Profile Pic */
+
+.ProfileImage {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
