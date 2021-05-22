@@ -3,6 +3,7 @@
   border: 1px solid #ccc;
   margin: 20px 0px 50px 0px;
   border-radius: 5px;
+  padding-bottom: 10px;
 }
 
 .Post div {
@@ -10,4 +11,62 @@
 }
 .Post img {
   width: 100%;
+}
+
+/* Post Footer */
+.PostFooter {
+  width: 100%;
+  padding: 5px;
+}
+
+.Icons {
+  width: 100%;
+  font-size: 2em;
+}
+.Icons .Icon {
+  margin: 0px 10px;
+}
+.Bookmark {
+  float: right;
+}
+
+.Hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.Comment {
+  border-top: 1px solid #ccc;
+}
+.Comment .Emoji {
+  float: left;
+  font-size: 2em;
+  margin-right: 5px;
+}
+.Comment .EmojiPicker {
+  position: absolute;
+  margin-top: 30px;
+}
+
+.Comment form {
+  padding-top: 5px;
+}
+.Comment form label input {
+  display: inline-block;
+  width: 80%;
+  border: none;
+  outline: none;
+}
+
+.Button {
+  float: right;
+  width: 10%;
+  border: none;
+  background-color: transparent;
+  color: rgb(0, 149, 246);
 }
