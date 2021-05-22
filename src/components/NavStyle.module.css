@@ -1,7 +1,11 @@
 /* Navbar */
 .Nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
   height: 54px;
   display: block;
+  background-color: white;
   border-bottom: 1px solid #ccc;
 }
 

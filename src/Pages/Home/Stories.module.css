@@ -1,0 +1,40 @@
+.Story {
+  display: inline-block;
+  margin: 10px;
+  /* float: left; */
+}
+.Story img {
+  padding: 1px;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  border: 2px solid rgb(219, 67, 92);
+}
+
+.Story p {
+  margin: 0;
+  font-size: 13px;
+  text-align: center;
+}
+
+/* Stories */
+.Stories {
+  display: flex;
+  height: 120px;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.Stories::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.Stories {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}

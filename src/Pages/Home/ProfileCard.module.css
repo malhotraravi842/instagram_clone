@@ -1,6 +1,8 @@
 /* ProfileCard */
 .ProfileCard {
   width: 100%;
+  margin-top: 20px;
+  display: inline-block;
 }
 
 .ProfileCard img {
@@ -14,7 +16,6 @@
 }
 
 .ProfileCard .ProfileDetail {
-  padding: 8px 0px;
   display: inline;
   float: left;
 }
@@ -22,7 +23,6 @@
 .ProfileDetail a {
   color: #262626;
   font-weight: 600;
-  margin-bottom: 5px;
   text-decoration: none;
 }
 .ProfileDetail p {
@@ -37,6 +37,6 @@
   font-size: 12px;
   font-weight: 600;
   color: rgb(0, 149, 246);
-  margin-top: 20px;
+  margin-top: 10px;
   font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }

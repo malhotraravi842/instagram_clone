@@ -1,18 +1,19 @@
 .Home {
   margin: 0 20%;
-  margin-top: 35px;
+  margin-top: 90px;
 }
 
 .FirstPart {
   width: 65%;
   float: left;
-  height: 100vh;
-  border: 1px solid black;
+  height: 90vh;
 }
 
 .SecondPart {
   float: left;
-  width: 35%;
+  position: fixed;
+  left: 60%;
+  margin-right: 20%;
   padding-left: 20px;
-  height: 100vh;
+  height: 90vh;
 }

@@ -1,17 +1,35 @@
 import classes from "./ProfileCard.module.css";
-const ProfileCard = () => {
+const ProfileCard = (props) => {
   return (
-    <div className={classes.ProfileCard}>
-      <img src="../assets/ravi.jpg" alt="profile-pic" />
-      <div className={classes.ProfileDetail}>
-        <a className={classes.Username} href="/">
-          malhotraravi842
+    <div
+      style={{ marginTop: props.margin }}
+      className={classes.ProfileCard + " " + props.className}
+    >
+      <img
+        style={{
+          height: props.imageSize,
+          width: props.imageSize,
+          border: props.border,
+        }}
+        src={"../assets/" + props.image}
+        alt="profile-pic"
+      />
+      <div
+        style={{ paddingTop: props.padding }}
+        className={classes.ProfileDetail}
+      >
+        <a style={{ fontSize: props.titleSize }} href="/">
+          {props.username}
         </a>
-        <p className={classes.Name}>Ravi Chaudhary😎</p>
+        {props.quote ? (
+          <p style={{ fontSize: props.quoteSize }}>{props.quote}</p>
+        ) : null}
       </div>
-      <a className={classes.Switch} href="/">
-        Switch
-      </a>
+      {props.button ? (
+        <a className={classes.Switch} href="/">
+          {props.button}
+        </a>
+      ) : null}
     </div>
   );
 };
