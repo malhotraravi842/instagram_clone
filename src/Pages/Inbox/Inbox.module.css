@@ -68,3 +68,29 @@
   font-size: 0.9em;
   color: rgb(160, 158, 158);
 }
+
+/* New Message */
+.NewMessage {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.NewMessage div {
+  text-align: center;
+}
+.NewMessage .Share {
+  font-size: 5em;
+  stroke-width: 1;
+  background-color: transparent;
+}
+.NewMessage div .Send {
+  background-color: #0095f6;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-weight: 600;
+  border-radius: 5px;
+}
