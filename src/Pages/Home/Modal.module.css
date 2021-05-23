@@ -1,0 +1,25 @@
+.Backdrop {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.ModalOverlay {
+  position: fixed;
+  top: 25vh;
+  left: 37%;
+  width: 26%;
+  z-index: 100;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+.ModalLink {
+  border-top: 1px solid #dbdbdb;
+}
+.ModalLink p {
+  cursor: pointer;
+}

@@ -1,23 +1,30 @@
-import { AiOutlineHeart, AiOutlineShareAlt } from "react-icons/ai";
+import { AiOutlineHeart } from "react-icons/ai";
+import { FiSend } from "react-icons/fi";
 import { BiBookmark } from "react-icons/bi";
-import { FaRegComment } from "react-icons/fa";
+import { BsChat } from "react-icons/bs";
 import classes from "./PostSection.module.css";
 import Comment from "./Comment";
+
+const Description = () => {
+  return (
+    <div className={classes.Description}>
+      <div className={classes.Likes}>2000 likes</div>
+      <a href="/">malhotraravi842</a>
+      <p>Too #calm To give a #damn 😎😈</p>
+    </div>
+  );
+};
 
 const PostFooter = () => {
   return (
     <div className={classes.PostFooter}>
       <div className={classes.Icons}>
         <AiOutlineHeart className={classes.Icon} />
-        <FaRegComment className={classes.Icon} />
-        <AiOutlineShareAlt className={classes.Icon} />
+        <BsChat className={classes.Icon} />
+        <FiSend className={classes.Icon} />
         <BiBookmark className={classes.Bookmark + " " + classes.Icon} />
       </div>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos perspiciatis
-      totam aliquam dolorum iste at beatae explicabo optio incidunt commodi,
-      dolore esse voluptatem repellendus dolor ipsum suscipit ullam fugit?
-      Voluptas.
-      <p></p>
+      <Description />
       <Comment />
     </div>
   );

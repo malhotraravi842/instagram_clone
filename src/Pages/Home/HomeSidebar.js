@@ -1,6 +1,7 @@
 import classes from "./Home.module.css";
 import ProfileCard from "./ProfileCard";
 import Suggestions from "./Suggestions";
+import Footer from "./Footer";
 
 const HomeSidebar = () => {
   return (
@@ -10,11 +11,9 @@ const HomeSidebar = () => {
         username="malhotraravi842"
         quote="RaviChaudhary😎"
         image="ravi1.jpg"
-        button="Switch"
-        imageSize="70px"
-        padding="8px"
       />
       <Suggestions />
+      <Footer />
     </div>
   );
 };

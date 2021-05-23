@@ -1,5 +1,19 @@
 import classes from "./Suggestions.module.css";
-import ProfileCard from "./ProfileCard";
+
+const SuggestionProfile = (props) => {
+  return (
+    <div className={classes.SuggestionProfile}>
+      <img src={"../assets/" + props.image} alt="profile-pic" />
+      <div className={classes.ProfileDetail}>
+        <a href="/">{props.username}</a>
+        <p>{props.quote}</p>
+      </div>
+      <a className={classes.Follow} href="/">
+        Follow
+      </a>
+    </div>
+  );
+};
 
 const Suggestions = () => {
   return (
@@ -10,57 +24,29 @@ const Suggestions = () => {
       </a>
       <br />
       <br />
-      <ProfileCard
+      <SuggestionProfile
         className={classes.SuggestionProfile}
         username="malhotraravi842"
         quote="Followed by abcd.............."
         image="ravi.jpg"
-        button="Follow"
-        imageSize="40px"
-        margin="7px"
-        titleSize="0.9em"
-        quoteSize="0.7em"
-        padding="0px"
-        border="none"
       />
-      <ProfileCard
+      <SuggestionProfile
         className={classes.SuggestionProfile}
         username="malhotraravi842"
         quote="Followed by abcd.............."
         image="ravi1.jpg"
-        button="Follow"
-        imageSize="40px"
-        margin="7px"
-        titleSize="0.9em"
-        quoteSize="0.7em"
-        padding="0px"
-        border="none"
       />
-      <ProfileCard
+      <SuggestionProfile
         className={classes.SuggestionProfile}
         username="malhotraravi842"
         quote="Followed by abcd.............."
         image="ravi2.jpg"
-        button="Follow"
-        imageSize="40px"
-        margin="7px"
-        titleSize="0.9em"
-        quoteSize="0.7em"
-        padding="0px"
-        border="none"
       />
-      <ProfileCard
+      <SuggestionProfile
         className={classes.SuggestionProfile}
         username="malhotraravi842"
         quote="Followed by abcd.............."
         image="ravi3.jpg"
-        button="Follow"
-        imageSize="40px"
-        margin="7px"
-        titleSize="0.9em"
-        quoteSize="0.7em"
-        padding="0px"
-        border="none"
       />
     </div>
   );

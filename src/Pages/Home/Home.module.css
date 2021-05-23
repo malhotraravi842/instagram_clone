@@ -17,3 +17,15 @@
   padding-left: 20px;
   height: 90vh;
 }
+
+.Footer {
+  width: 100%;
+}
+
+.Footer a {
+  float: left;
+  margin: 5px;
+  text-decoration: none;
+  color: #ccc;
+  font-size: 0.8em;
+}

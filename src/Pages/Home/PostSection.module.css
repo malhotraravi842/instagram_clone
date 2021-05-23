@@ -6,22 +6,50 @@
   padding-bottom: 10px;
 }
 
-.Post div {
-  padding: 5px;
-}
 .Post img {
   width: 100%;
+  border-top: 1px solid #dbdbdb;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+/* Post Header */
+.PostHeader {
+  width: 100%;
+  margin: 10px;
+  display: inline-block;
+}
+
+.PostHeader img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  float: left;
+  display: inline;
+  margin-right: 10px;
+}
+.PostHeader div button {
+  float: right;
+  margin-right: 20px;
+  border: none;
+  background-color: transparent;
+  font-size: 1.5em;
+}
+.PostHeader a {
+  color: #262626;
+  font-weight: 600;
+  text-decoration: none;
 }
 
 /* Post Footer */
 .PostFooter {
   width: 100%;
   padding: 5px;
+  padding-bottom: 0px;
 }
 
 .Icons {
   width: 100%;
-  font-size: 2em;
+  font-size: 1.8em;
 }
 .Icons .Icon {
   margin: 0px 10px;
@@ -40,7 +68,28 @@
   width: 1px;
 }
 
+.Description {
+  padding: 0px 5px;
+  margin-bottom: 10px;
+}
+.Description .Likes {
+  font-size: 0.9em;
+  font-weight: 600;
+}
+.Description a {
+  color: #262626;
+  font-weight: 600;
+  font-size: 0.8em;
+  text-decoration: none;
+}
+.Description p {
+  font-weight: 100;
+  margin-left: 5px;
+  display: inline;
+}
+
 .Comment {
+  padding: 5px;
   border-top: 1px solid #ccc;
 }
 .Comment .Emoji {
