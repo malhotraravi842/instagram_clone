@@ -1,5 +1,5 @@
 import classes from "./Home.module.css";
-import Stories from "./Stories";
+import Stories from "../../components/Stories";
 import Post from "./Post";
 
 const PostSection = () => {

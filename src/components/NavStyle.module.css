@@ -7,6 +7,7 @@
   display: block;
   background-color: white;
   border-bottom: 1px solid #ccc;
+  /* overflow: hidden; */
 }
 
 /* Navbar Logo */
@@ -56,8 +57,9 @@
 }
 
 /* Navbar Link */
-
+.HeartIcon,
 .NavLink {
+  float: left;
   color: #000;
   font-size: 2em;
   text-decoration: none;
@@ -66,10 +68,65 @@
   cursor: pointer;
 }
 
-/* Profile Pic */
+/* Notification & Notification */
+.Account,
+.Notification {
+  float: left;
+  overflow: hidden;
+  cursor: pointer;
+}
 
-.ProfileImage {
+.HeartIcon {
+  float: left;
+  color: #000;
+  font-size: 2em;
+  text-decoration: none;
+  margin: 0 10px;
+  height: 100%;
+  cursor: pointer;
+}
+
+.NotificationContent {
+  display: none;
+  position: absolute;
+  top: 60px;
+  right: 20%;
+  background-color: white;
+  border-radius: 5px;
+  width: 30%;
+  height: 300px;
+  overflow-y: scroll;
+  box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding: 10px;
+}
+
+.AccountContent {
+  display: none;
+  position: absolute;
+  top: 60px;
+  right: 20%;
+  background-color: white;
+  border-radius: 5px;
+  width: 250px;
+  height: fit-content;
+  box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding: 0px;
+}
+
+.Account img {
   height: 30px;
   width: 30px;
   border-radius: 50%;
+}
+.Account div {
+  font-size: 0.9em;
+  padding: 5px 10px 5px 10px;
+}
+.Li {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1.2em;
 }

@@ -1,5 +1,14 @@
+import classes from "./Explore.module.css";
+import Gallery from "../../components/Gallery";
+import Footer from "../../components/Footer";
+
 const Explore = () => {
-  return <h1>Explore page</h1>;
+  return (
+    <div className={classes.Explore}>
+      <Gallery />
+      <Footer />
+    </div>
+  );
 };
 
 export default Explore;

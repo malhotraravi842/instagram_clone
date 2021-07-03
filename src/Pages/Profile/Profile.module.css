@@ -1,0 +1,44 @@
+.Profile {
+  margin: 0 20%;
+  margin-top: 90px;
+}
+
+/* About Section */
+.About {
+  width: 100%;
+  display: flex;
+  height: fit-content;
+}
+.About .First {
+  width: 35%;
+  display: flex;
+  justify-content: center;
+}
+.About .First img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.About .Second {
+  width: 65%;
+}
+
+/* Profile Post */
+.ProfilePost img {
+  width: 280px;
+  height: 280px;
+  /* margin: 10px; */
+}
+
+/* Profile Navbar */
+.ProfileNav {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+  align-items: center;
+}
+.ProfileNav .NavLink {
+  text-decoration: none;
+  font-size: 0.9em;
+  padding: 0px 30px;
+}

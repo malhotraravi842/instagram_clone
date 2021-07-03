@@ -9,6 +9,7 @@
   width: 70px;
   border-radius: 50%;
   border: 2px solid rgb(219, 67, 92);
+  object-fit: cover;
 }
 
 .Story p {

@@ -1,9 +1,9 @@
 import classes from "./Stories.module.css";
 import Story from "./Story";
 
-const Stories = () => {
+const Stories = (props) => {
   return (
-    <div className={classes.Stories}>
+    <div style={props.style} className={classes.Stories}>
       <Story image="ravi.jpg" username="ravi" />
       <Story image="ravi1.jpg" username="ravichaudhary076" />
       <Story image="ravi2.jpg" username="malhotraravi842" />

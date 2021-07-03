@@ -1,7 +1,7 @@
 import classes from "./Home.module.css";
 import ProfileCard from "./ProfileCard";
 import Suggestions from "./Suggestions";
-import Footer from "./Footer";
+import Footer from "../../components/Footer";
 
 const HomeSidebar = () => {
   return (

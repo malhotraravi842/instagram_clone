@@ -1,7 +1,7 @@
-import { AiFillHome, AiOutlineHeart } from "react-icons/ai";
+import { AiFillHome } from "react-icons/ai";
 import { RiMessengerLine } from "react-icons/ri";
 import { IoIosCompass } from "react-icons/io";
-import { Nav, NavLink, Bars } from "./NavbarElements";
+import { Nav, NavLink, Bars, Notification, Account } from "./NavbarElements";
 import classes from "./NavStyle.module.css";
 import HeadingLogo from "./HeadingLogo";
 import SearchBar from "./SearchBar";
@@ -27,16 +27,8 @@ const Navbar = () => {
           <NavLink to="/explore">
             <IoIosCompass />
           </NavLink>
-          <NavLink to="/likes">
-            <AiOutlineHeart />
-          </NavLink>
-          <NavLink to="/profile">
-            <img
-              className={classes.ProfileImage}
-              src="../assets/ravi.jpg"
-              alt="profile"
-            />
-          </NavLink>
+          <Notification />
+          <Account />
         </div>
       </div>
     </Nav>
