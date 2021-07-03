@@ -2,7 +2,12 @@
 
 It's a frontend layout of Instagram developed in React.js
 
+#### Screenshot 1(Home Page)
+
 ![Frontend Screenshot 1](public/assets/insta_ss1.jpg)
+
+#### Screenshot 2(Inbox)
+
 ![Frontend Screenshot 1](public/assets/insta_ss2.jpg)
 
 ## Tech Stack Used
